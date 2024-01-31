@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Verificador de idade </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>Verificador de idade</header>
+
+    <section>
+        <div>
+            <p>
+                Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="1">
+            </p>
+            <p id="sexo">
+                Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Femenino</label>
+            </p>
+
+        </div>
+
+        <div id="infos">
+            <div id="res">
+            </div>
+            <img src="" id="img" width="70%">
+        </div>
+        <input type="button" value="Enviar" id="enviar">
+    </section>
+
+    <footer>Alysson Melo 2024 &copy;Todos os direitos reservados </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
