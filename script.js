@@ -25,7 +25,7 @@ function verificar() {
             else if (idade <= 18) {
                 img.src = 'imgs/adol-m.png'
             }
-            else if (idade <= 50) {
+            else if (idade <= 60) {
                 img.src = 'imgs/adult-m.png'
             }
             else {
@@ -41,7 +41,7 @@ function verificar() {
             else if (idade <= 18) {
                 img.src = 'imgs/adol-f.png'
             }
-            else if (idade <= 50) {
+            else if (idade <= 60) {
                 img.src = 'imgs/adult-f.png'
             }
             else {
